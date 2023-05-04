@@ -1,0 +1,145 @@
+body {
+  background: #3a3a3a;
+  padding: 0px 100px;
+  font-family: "Raleway";
+  font-style: normal;
+  color: white;
+}
+
+.panel{
+  color: white;
+}
+
+.nav-link{
+  color: #ffffff;
+}
+
+.nav-link:hover{
+  color: #6123b3;
+}
+
+.masters-img{
+  width: 100px;
+  height: 100px;
+}
+
+table{
+  border: 2px solid #000000;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  align-items: center;
+}
+
+th{
+  border: 2px solid #9c9c9c8f;
+  font-weight: 400;
+  padding: 10px;
+  background-color: #3a3a3a;
+  color: #ffffff;
+}
+
+.btn{
+  color: white;
+}
+.btn:hover{
+  color: #6123b3;
+}
+
+.button{
+  background-color: #6d5596;
+  border: 2px solid rgba(255, 255, 255, 0.192);
+  border-radius: 5px;
+  padding: 6px 20px;
+  color: #ffffff;
+}
+
+.button:hover{
+  background-color: #6b47aa;
+  color: white;
+}
+
+
+
+
+
+.admin-auth {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.auth-a-enter {
+  text-decoration: none;
+  color: white;
+}
+
+.authA {
+  text-decoration: none;
+  color: rgb(108, 108, 108);
+}
+
+.form-auth {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: 100px;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.input-auth {
+  background: linear-gradient(
+    90deg,
+    rgb(157, 122, 223) 0%,
+    rgb(189, 99, 183) 100%
+  );
+  padding: 50px 100px;
+}
+
+#phone,
+#password {
+  font-family: "Raleway";
+  background: none;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 320px;
+  border: none;
+  border-radius: 0;
+  color: #ffffff;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+#phone,
+#password:focus {
+  outline: none;
+}
+
+input[type="password"] {
+  letter-spacing: 0.3em;
+}
+
+.btnDiv {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.authBtn {
+  font-family: "Raleway";
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  background-color: #782de0;
+  padding: 3px 60px;
+  border-radius: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.image-table{
+  width: 300px;
+}

@@ -1,0 +1,630 @@
+.profile-h {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 70px;
+  color: #ffffff;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.user-profile {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.user-info {
+  height: 100%;
+}
+
+.gray-block {
+  background-color: #00000023;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gray-block-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  text-align: center;
+  background-color: #00000023;
+  padding: 30px;
+}
+
+.user-info {
+  background: linear-gradient(
+    90deg,
+    rgb(230, 143, 237) 0%,
+    rgb(195, 173, 245) 100%
+  );
+}
+
+.user-name,
+.user-phone {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #ffffff;
+  /* padding: 0px 0px 20px 0px; */
+  text-align: center;
+}
+
+.btn-user {
+  background: linear-gradient(
+    90deg,
+    rgb(195, 173, 245) 0%,
+    rgb(113, 167, 255) 100%
+  );
+}
+
+.btn-user-click {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  background-color: #3a3a3a;
+  border: 1px solid #2c2c2c;
+  padding: 10px 60px;
+  border-radius: 30px;
+  align-items: center;
+  width: 50%;
+}
+
+.profile-dog {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-image: url(/upload/profile-fon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 60% 35%;
+}
+
+.image-grid {
+  width: 100%;
+}
+
+.info-dog {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  text-align: center;
+  background-color: #00000023;
+}
+
+.name-h,
+.breed-h {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  color: #ffffff;
+  /* padding: 0px 0px 20px 0px; */
+  /* text-align: center; */
+  grid-row: 1;
+}
+
+.dog-name,
+.dog-breed {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  color: #ffffff;
+  /* padding: 0px 0px 20px 0px; */
+  /* text-align: center; */
+  grid-row: 2;
+}
+
+.add-dog-form {
+  margin-top: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-user-click-add {
+  /* padding: 30px; */
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  background-color: #782de0;
+  padding: 10px 60px;
+  border-radius: 30px;
+  align-items: center;
+}
+
+.application-profile {
+  background: linear-gradient(
+    90deg,
+    rgb(230, 143, 237) 0%,
+    rgb(195, 173, 245) 100%
+  );
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: auto auto;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.title {
+  /* display: flex;
+    flex-direction: row;
+    gap: 10px; */
+  color: #ffffff;
+  /* grid-row: 1; */
+  align-items: center;
+}
+
+.app-info-profile {
+  /* display: flex;
+    flex-direction: row;
+    gap: 10px; */
+  color: #ffffff;
+  grid-row: 2;
+}
+
+.add-pet {
+  padding: 10px 0px;
+}
+
+.btn:hover {
+  background-color: #782de0;
+  color: #ffffff;
+}
+
+.card-add-dog{
+  /* padding: 0px 250px; */
+  margin: 0px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  color: #ffffff;
+}
+
+.btn-add-finish {
+  padding: 20px 0px;
+  width: 100%;
+}
+
+.add-pet {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  background-color: #782de0;
+  padding: 3px 30px;
+  border-radius: 30px;
+  align-items: center;
+  width: 20%;
+}
+
+.label-profile {
+  text-align: center;
+  padding: 10px 0px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .profile-h {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 70px;
+    color: #ffffff;
+    padding: 20px 0px;
+    text-align: center;
+  }
+
+  .user-profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .user-info {
+    height: 100%;
+  }
+
+  .gray-block {
+    background-color: #00000023;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .gray-block-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+    background-color: #00000023;
+    padding: 30px;
+  }
+
+  .user-info {
+    background: linear-gradient(
+      90deg,
+      rgb(230, 143, 237) 0%,
+      rgb(195, 173, 245) 100%
+    );
+  }
+
+  .user-name,
+  .user-phone {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #ffffff;
+    /* padding: 0px 0px 20px 0px; */
+    text-align: center;
+    margin: 0;
+  }
+
+  .btn-user {
+    background: linear-gradient(
+      90deg,
+      rgb(195, 173, 245) 0%,
+      rgb(113, 167, 255) 100%
+    );
+  }
+
+  .btn-user-click {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #3a3a3a;
+    border: 1px solid #2c2c2c;
+    padding: 10px 30px;
+    border-radius: 30px;
+    align-items: center;
+    width: 70%;
+  }
+
+  .profile-dog {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-image: url(/upload/profile-fon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60% 35%;
+  }
+
+  .image-grid {
+    width: 100%;
+  }
+
+  .info-dog {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    background-color: #00000023;
+  }
+
+  .name-h,
+  .breed-h {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    color: #ffffff;
+    /* padding: 0px 0px 20px 0px; */
+    /* text-align: center; */
+    grid-row: 1;
+  }
+
+  .dog-name,
+  .dog-breed {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    color: #ffffff;
+    /* padding: 0px 0px 20px 0px; */
+    /* text-align: center; */
+    grid-row: 2;
+  }
+
+  .add-dog-form {
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .btn-user-click-add {
+    /* padding: 30px; */
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #782de0;
+    padding: 10px 60px;
+    border-radius: 30px;
+    align-items: center;
+  }
+
+  .application-profile {
+    background: linear-gradient(
+      90deg,
+      rgb(230, 143, 237) 0%,
+      rgb(195, 173, 245) 100%
+    );
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: auto auto;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 20px;
+  }
+
+  .title {
+    /* display: flex;
+      flex-direction: row;
+      gap: 10px; */
+    color: #ffffff;
+    /* grid-row: 1; */
+    align-items: center;
+  }
+
+  .app-info-profile {
+    /* display: flex;
+      flex-direction: row;
+      gap: 10px; */
+    color: #ffffff;
+    grid-row: 2;
+  }
+
+  .btn:hover {
+    background-color: #782de0;
+    color: #ffffff;
+  }
+
+  .card-body {
+    /* padding: 0px 250px; */
+    margin: 0px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+  }
+
+  .btn-add-finish {
+    padding: 20px 0px;
+    width: 100%;
+  }
+
+  .add-pet {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #782de0;
+    padding: 3px 30px;
+    border-radius: 30px;
+    align-items: center;
+    width: 20%;
+  }
+
+  .label-profile {
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  select {
+    font-size: 16px;
+  }
+
+  @media (max-width: 426px) {
+    .profile-h {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 70px;
+      color: #ffffff;
+      padding: 0px 0px;
+      text-align: center;
+    }
+
+    .user-profile {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .user-info {
+      height: 100%;
+    }
+
+    .gray-block {
+      background-color: #00000023;
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .gray-block-2 {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+      text-align: center;
+      background-color: #00000023;
+      padding: 15px;
+    }
+
+    .user-info {
+      background: linear-gradient(
+        90deg,
+        rgb(230, 143, 237) 0%,
+        rgb(195, 173, 245) 100%
+      );
+    }
+
+    .user-name,
+    .user-phone {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 40px;
+      color: #ffffff;
+      /* padding: 0px 0px 20px 0px; */
+      text-align: center;
+      margin: 0;
+    }
+
+    .btn-user {
+      background: linear-gradient(
+        90deg,
+        rgb(195, 173, 245) 0%,
+        rgb(113, 167, 255) 100%
+      );
+    }
+
+    .btn-user-click {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 14px;
+      background-color: #3a3a3a;
+      border: 1px solid #2c2c2c;
+      padding: 10px 10px;
+      border-radius: 30px;
+      align-items: center;
+      width: 70%;
+    }
+
+    .profile-dog {
+      display: grid;
+      grid-template-columns: 1fr;
+      background-image: url(/upload/profile-fon.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 60% 35%;
+    }
+
+    .image-grid {
+      width: 100%;
+    }
+
+    .info-dog {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      grid-template-rows: 1fr 1fr;
+      align-items: center;
+      text-align: center;
+      background-color: #00000023;
+    }
+
+    .name-h,
+    .breed-h {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      color: #ffffff;
+      /* padding: 0px 0px 20px 0px; */
+      /* text-align: center; */
+      grid-row: 1;
+    }
+
+    .add-dog-form {
+      margin-top: 30px;
+      align-items: center;
+      text-align: center;
+    }
+
+    .btn-user-click-add {
+      /* padding: 30px; */
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 12px;
+      background-color: #782de0;
+      padding: 10px 60px;
+      border-radius: 30px;
+      align-items: center;
+    }
+
+    .application-profile {
+      background: linear-gradient(
+        90deg,
+        rgb(230, 143, 237) 0%,
+        rgb(195, 173, 245) 100%
+      );
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: auto auto;
+      text-align: center;
+      align-items: center;
+      color: #ffffff;
+      padding: 20px;
+    }
+
+    .title {
+      /* display: flex;
+        flex-direction: row;
+        gap: 10px; */
+      color: #ffffff;
+      /* grid-row: 1; */
+      align-items: center;
+    }
+
+    .app-info-profile {
+      /* display: flex;
+        flex-direction: row;
+        gap: 10px; */
+      color: #ffffff;
+      grid-row: 2;
+    }
+
+    .btn:hover {
+      background-color: #782de0;
+      color: #ffffff;
+    }
+
+    .card-body {
+      /* padding: 0px 250px; */
+      margin: 0px;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      padding-top: 0;
+      /* text-align: center; */
+    }
+
+    .btn-add-finish {
+      padding: 10px 0px;
+      width: 100%;
+    }
+
+    .add-pet {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 12px;
+      background-color: #782de0;
+      padding: 3px 10px;
+      border-radius: 30px;
+      align-items: center;
+      width: 50%;
+    }
+
+    .label-profile {
+      text-align: center;
+      padding: 10px 0px;
+      font-weight: 400;
+      font-size: 14px;
+    }
+
+    select {
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,98 @@
+.authAEnter {
+  text-decoration: none;
+  color: white;
+}
+
+.form-all {
+  justify-content: center;
+  align-items: center;
+  /* padding: 200px; */
+}
+
+#phone,
+#password,
+#name,
+#password_confirmation,
+#pet_name {
+  background: none;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  color: white;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+#phone,
+#password,
+#name,
+#password_confirmation,
+#pet_name:focus {
+  outline: none;
+}
+
+#breed-select {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  #phone,
+  #password,
+  #name,
+  #password_confirmation,
+  #pet_name {
+    background: none;
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+
+  #phone,
+  #password,
+  #name,
+  #password_confirmation,
+  #pet_name:focus {
+    outline: none;
+  }
+
+  #breed-select {
+    width: 100%;
+  }
+
+  @media (max-width: 426px) {
+    #phone,
+    #password,
+    #name,
+    #password_confirmation,
+    #pet_name {
+      background: none;
+      font-size: 14px;
+      padding: 10px 10px 10px 5px;
+      display: block;
+      width: 100%;
+      border: none;
+      border-radius: 0;
+      color: white;
+      border-bottom: 1px solid rgb(255, 255, 255);
+    }
+
+    #phone,
+    #password,
+    #name,
+    #password_confirmation,
+    #pet_name:focus {
+      outline: none;
+    }
+
+    #breed-select {
+      width: 100%;
+    }
+  }
+}

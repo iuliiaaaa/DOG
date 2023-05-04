@@ -1,0 +1,152 @@
+.auth {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.auth-a-enter {
+  text-decoration: none;
+  color: white;
+}
+
+.authA {
+  text-decoration: none;
+  color: rgb(108, 108, 108);
+}
+
+.form-auth {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: 100px;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.input-auth {
+  background: linear-gradient(
+    90deg,
+    rgb(157, 122, 223) 0%,
+    rgb(189, 99, 183) 100%
+  );
+  padding: 50px 100px;
+}
+
+#phone,
+#password {
+  background: none;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 320px;
+  border: none;
+  border-radius: 0;
+  color: #ffffff;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+#phone,
+#password:focus {
+  outline: none;
+}
+
+input[type="password"] {
+  letter-spacing: 0.3em;
+}
+
+.btnDiv {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.authBtn {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  background-color: #782de0;
+  padding: 3px 60px;
+  border-radius: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .form-auth {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 40px;
+    align-items: center;
+    padding: 20px 0px;
+  }
+
+  .auth {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  @media (max-width: 426px) {
+    .auth {
+      text-align: center;
+      color: white;
+      padding: 20px;
+      font-size: 20px;
+      font-weight: 600;
+      margin: 0;
+    }
+
+    .form-auth {
+      display: flex;
+      justify-content: center;
+      color: white;
+      margin-bottom: 0px;
+      align-items: center;
+      padding: 0px 20px;
+    }
+
+    .input-auth {
+      background: linear-gradient(
+        90deg,
+        rgb(157, 122, 223) 0%,
+        rgb(189, 99, 183) 100%
+      );
+      padding: 30px 20px;
+      width: 90%;
+    }
+
+    #phone,
+    #password {
+      background: none;
+      font-size: 14px;
+      padding: 10px 10px 10px 5px;
+      display: block;
+      width: 100%;
+      border: none;
+      border-radius: 0;
+      border-bottom: 1px solid rgb(255, 255, 255);
+    }
+
+    .authBtn {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 14px;
+        background-color: #782de0;
+        padding: 3px 40px;
+        border-radius: 30px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+      }
+
+      .error{
+        font-size: 10px;
+      }
+  }
+}

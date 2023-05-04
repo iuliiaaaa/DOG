@@ -1,0 +1,338 @@
+.application-h {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 70px;
+  color: #ffffff;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.services-check,
+.name-check,
+.price-applications,
+.date-check,
+.worker-check,
+.time-check {
+  font-size: 18px;
+  margin: 0;
+  padding: 10px;
+}
+
+.form-application {
+  background-image: url(/upload/portrait-of-german-shepherd-dog-in-gradient-lighting\ \(1\).jpg);
+  background-size: cover;
+  background-position: 30% 50%;
+  /* background: linear-gradient(
+    90deg,
+    rgb(144, 112, 220) 0%,
+    rgb(243, 182, 239) 60%,
+    rgb(113, 167, 255) 100%
+  ); */
+  /* background: linear-gradient(90deg, rgb(157, 122, 223) 0% ,rgb(189, 99, 183) 100%);  */
+  
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  margin: 0px 250px;
+}
+
+.application-all {
+  background-color: #2e2e2e8d;
+}
+
+.user-hello {
+  padding: 20px 0px;
+  font-size: 24px;
+  margin: 0;
+}
+
+.select-dog {
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.select-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+
+  /* display: inline-block; */
+}
+
+.for-name {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.select-name input[type="radio"] {
+  display: none;
+}
+
+.select-name label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0px 15px;
+  line-height: 34px;
+  border: 1px solid #ffffff89;
+  border-radius: 6px;
+  user-select: none;
+}
+
+.select-name input[type="radio"]:checked + .for-name {
+  background: #782de0;
+}
+
+.select-services-block {
+  padding: 20px 0px;
+}
+
+.select-services {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  gap: 10px;
+  /* display: inline-block; */
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.select-services input[type="checkbox"] {
+  display: none;
+}
+
+.select-services label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0px 15px;
+  line-height: 34px;
+  border: 1px solid #ffffff89;
+  border-radius: 6px;
+  user-select: none;
+}
+
+.select-services input[type="checkbox"]:checked + label {
+  background: #782de0;
+}
+
+.date-box-application {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.workers-application {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  gap: 10px;
+}
+
+.worker-check-photo {
+  border-radius: 50%;
+}
+
+.workers-application input[type="radio"] {
+  display: none;
+}
+
+.workers-application label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0px 15px;
+  line-height: 34px;
+  border: 1px solid #ffffff89;
+  border-radius: 6px;
+  user-select: none;
+}
+
+.workers-application input[type="radio"]:checked + label {
+  background-color: #782de0;
+}
+
+.time-box-application {
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.times_table {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  gap: 10px;
+}
+
+.times_table input[type="radio"] {
+  display: none;
+}
+
+.times_table label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0px 15px;
+  line-height: 34px;
+  border: 1px solid #ffffff89;
+  border-radius: 6px;
+  user-select: none;
+}
+
+.times_table input[type="radio"]:checked + label {
+  background-color: #782de0;
+}
+
+.btn-record-dog-app {
+  padding-bottom: 20px;
+}
+
+.btn-app {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: medium;
+  font-size: 18px;
+  background-color: #782de0;
+  padding: 2px 60px;
+  border-radius: 30px;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+    .application-h {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 70px;
+        color: #ffffff;
+        padding: 20px 0px;
+        text-align: center;
+      }
+      
+      .services-check,
+      .name-check,
+      .price-applications,
+      .date-check,
+      .worker-check,
+      .time-check {
+        font-size: 16px;
+        margin: 0;
+        padding: 10px;
+      }
+
+      .user-hello {
+        padding: 20px 0px;
+        font-size: 20px;
+        margin: 0;
+      }
+      
+      .form-application {
+        background-image: url(/upload/portrait-of-german-shepherd-dog-in-gradient-lighting\ \(1\).jpg);
+        background-size: cover;
+        background-position: 30% 50%;
+        /* background: linear-gradient(
+          90deg,
+          rgb(144, 112, 220) 0%,
+          rgb(243, 182, 239) 60%,
+          rgb(113, 167, 255) 100%
+        ); */
+        /* background: linear-gradient(90deg, rgb(157, 122, 223) 0% ,rgb(189, 99, 183) 100%);  */
+        margin: 0px 80px;
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+      }
+      
+      .btn-app {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: medium;
+        font-size: 16px;
+        background-color: #782de0;
+        padding: 2px 60px;
+        border-radius: 30px;
+        align-items: center;
+      }
+
+      @media (max-width: 426px) {
+        .application-h {
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 70px;
+            color: #ffffff;
+            padding: 20px 0px;
+            text-align: center;
+          }
+
+          label{
+            font-size: 14px;
+          }
+          
+          .services-check,
+          .name-check,
+          .price-applications,
+          .date-check,
+          .worker-check,
+          .time-check {
+            font-size: 14px;
+            margin: 0;
+            padding: 10px;
+          }
+    
+          .user-hello {
+            padding: 20px 0px 0px 0px;
+            font-size: 20px;
+            margin: 0;
+          }
+
+          .select-services-block {
+            padding: 10px 0px;
+          }
+
+          .time-box-application{
+            padding: 10px 0px 20px 0px;
+          }
+          
+          .form-application {
+            background-image: url(/upload/portrait-of-german-shepherd-dog-in-gradient-lighting\ \(1\).jpg);
+            background-size: cover;
+            background-position: 30% 50%;
+            /* background: linear-gradient(
+              90deg,
+              rgb(144, 112, 220) 0%,
+              rgb(243, 182, 239) 60%,
+              rgb(113, 167, 255) 100%
+            ); */
+            /* background: linear-gradient(90deg, rgb(157, 122, 223) 0% ,rgb(189, 99, 183) 100%);  */
+            
+            align-items: center;
+            text-align: center;
+            color: #ffffff;
+            margin: 0px 0px 20px 0px;
+          }
+
+          .select-services {
+            display: grid;
+            grid-template-columns: max-content;
+            gap: 10px;
+            /* display: inline-block; */
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+          }
+          
+          .btn-app {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: medium;
+            font-size: 14px;
+            background-color: #782de0;
+            padding: 2px 60px;
+            border-radius: 30px;
+            align-items: center;
+          }
+        }
+}
